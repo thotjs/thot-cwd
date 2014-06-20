@@ -1,10 +1,10 @@
 {
   "name": "thot-cwd",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Enforces current working directory to be the same as the entry point of your script",
   "main": "index.js",
   "scripts": {
-    "test": "gulp"
+    "test": "gulp && node ./specs/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/thotjs/thot-cwd/issues"
   },
-  "homepage": "https://github.com/thotjs/thot-cwd"
+  "homepage": "https://github.com/thotjs/thot-cwd",
+  "devDependencies": {
+    "gulp": "^3.8.1",
+    "gulp-jshint": "^1.6.3",
+    "jshint-stylish": "^0.2.0"
+  }
 }

@@ -1,0 +1,23 @@
+{
+  "name": "thot-cwd",
+  "version": "0.0.2",
+  "description": "Enforces current working directory to be the same as the entry point of your script",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thotjs/thot-cwd.git"
+  },
+  "keywords": [
+    "working",
+    "directory"
+  ],
+  "author": "Joshwa Fugett <jfugett@thotjs.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thotjs/thot-cwd/issues"
+  },
+  "homepage": "https://github.com/thotjs/thot-cwd"
+}

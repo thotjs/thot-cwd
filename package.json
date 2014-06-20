@@ -1,6 +1,6 @@
 {
   "name": "thot-cwd",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Enforces current working directory to be the same as the entry point of your script",
   "main": "index.js",
   "scripts": {
